@@ -2,6 +2,7 @@ import itertools
 import time
 import sys
 
+
 print("+"*70)
 print("        Fatih YOLCU"*25,"        Fatih YOLCU","")
 print("+"*70)
@@ -13,6 +14,10 @@ print(" "*10,"Wordlist Oluşturma Programı'na Hoşgeldiniz")
 while True:
     print("\n1-Harf Wordlisti ")
     print("2-Kelime Wordlisti \n")
+    #KELİME WORDLİSTİ :-->
+    #2'li , 3'lü yapıda wordlist oluşturmak amacı ile yapılmıştır.
+    #örnek: fatih 1071 anadolu #3'lü yapı
+    #pass:1071anadolufatih
     a = int(input("Oluşturmak istediğiniz wordlist'in numarasını giriniz : "))
     if a==1:
         print("")
